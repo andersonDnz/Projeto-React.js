@@ -64,6 +64,7 @@ const Navbar= () => {
           </li>
           
         </ul>
+
     </nav>  
     <List/>
     </div>
