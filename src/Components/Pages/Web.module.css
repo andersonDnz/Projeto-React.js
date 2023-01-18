@@ -1,0 +1,20 @@
+.web {
+   top: 25px;
+   position:relative ;
+   padding: 2rem;
+   
+}
+
+.not {
+   width: 50px;
+   cursor: pointer;
+   justify-content: space-between;
+   margin-left: 80rem;
+   padding: 1px;
+ 
+ 
+}
+
+.paragrafo {
+   text-align: justify;
+}

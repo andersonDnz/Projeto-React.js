@@ -1,0 +1,47 @@
+
+
+.marc {
+    height: 55px;
+    background-color: rgb(255, 251, 251);
+    font-size: larger;
+    margin-bottom: 16px;
+    margin: 5rem;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 1px 1px 1px rgb(205, 200, 200);
+    
+}
+
+.paragrafo {
+      padding: 80px;
+      
+}
+
+.marc input {
+    cursor: pointer;
+     
+}
+
+.marc svg {
+   width: 50px;
+   cursor: pointer;
+   justify-content: space-between;
+   margin-left: 75rem;
+   margin: 1px;
+}
+
+.new_land {
+    height: 50px;
+    
+    background-color: rgb(255, 251, 251);
+    font-size: larger;
+    margin-bottom: 16px;
+    margin: 5rem;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 1px 1px 1px rgb(205, 200, 200);
+}
+
+
+
+
