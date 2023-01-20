@@ -62,6 +62,7 @@ h2 {
     padding: 12px;
     box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
 }
+
 .input5 {
     width: 74rem;
     height: 100px;
@@ -87,18 +88,21 @@ h2 {
     box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
 }
 
-
-.marc input {
+section input {
     cursor: pointer;
-
+    border: 30px;
+    width: 19px;
+    height: 19px;
 }
 
-.marc svg {
-   width: 50px;
+section svg{
+   width: 25px; 
+   height: 29px;
+   color: grey;
    cursor: pointer;
-   justify-content: space-between;
-   margin-left: 75rem;
-   margin: 1px;
+   margin-bottom: 16px;
+   margin-left: 25px;
+   border-radius: 5px;
 }
 
 

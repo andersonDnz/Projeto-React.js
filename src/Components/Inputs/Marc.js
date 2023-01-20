@@ -43,7 +43,7 @@ function Marc() {
 
             <section className={styles.input6}>
                 <input type="radio" id="vazio" name="vazio" value="vazio" />
-                <label>New case study thumbnails </label>    
+                <label>New case study thumbnails</label>    
             </section>
             
             </form>
