@@ -1,49 +1,50 @@
 import styles from '../Inputs/Marc.module.css';
 
 
-import { AiOutlineSmile, AiFillLayout, AiOutlinePaperClip } from 'react-icons/ai';
+import { AiFillLayout, AiOutlinePaperClip } from 'react-icons/ai';
 
-const avatar = ( props )=> {
-       return <div> 
-            <p > {props.img} </p>
-       </div>;
-};
 
 
 function Marc() {
 
+       
     return (
-            <form>
-            <div className={styles.marc}>
-                
+            <form >
+               <h2>Today</h2> 
+            <section className={styles.input1}>
                 <input type="radio" id="vazio" name="vazio" value="vazio"/>
-                <label>Update About page Header {avatar.img=<AiOutlineSmile/>}</label>
-            </div>
-            <div className={styles.marc}>
+                <label>Update About page Header </label>
+            </section> 
+                <h2>Working in Progress</h2>
+            <section className={styles.input2}>
+                <input  type="radio" id="vazio" name="vazio" value="vazio"/>
+                <label>About Page wordings </label>
+            </section>
+
+            <section className={styles.input3}>
                 <input type="radio" id="vazio" name="vazio" value="vazio" />
-                <label>About Page wordings {avatar.img=<AiOutlineSmile/>}</label>
-            </div>
-            <div className={styles.new_land}>
-                <input type="radio" id="vazio" name="vazio" value="vazio" />
-                <label>New landing layout {avatar.img=<AiOutlineSmile/>}</label>
+                <label>New landing layout </label>
                 <br/>
                 <AiFillLayout/>
                 <AiOutlinePaperClip/>    
-            </div>
-            <div className={styles.marc}>
+            </section>
+            <h2>Backlog</h2>
+
+            <section className={styles.input4}>
                 
                 <input type="radio" id="vazio" name="vazio" value="vazio"/>
-                <label>Update global iconset {avatar.img=<AiOutlineSmile/>}</label>
-            </div>
+                <label>Update global iconset </label>
+            </section>
 
-            <div className={styles.marc}>
+            <section className={styles.input5}>
                 <input type="radio" id="vazio" name="vazio" value="vazio" />
-                <label>New landing ink +49 number in global footers & navi {avatar.img=<AiOutlineSmile/>}</label>
-            </div>
-            <div className={styles.new_land}>
+                <label>New landing (ink +49) number in global footers & navi </label>
+            </section>
+
+            <section className={styles.input6}>
                 <input type="radio" id="vazio" name="vazio" value="vazio" />
-                <label>New case study thumbnails {avatar.img=<AiOutlineSmile/>}</label>    
-            </div>
+                <label>New case study thumbnails </label>    
+            </section>
             
             </form>
        

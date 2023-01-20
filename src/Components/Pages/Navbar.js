@@ -22,7 +22,7 @@ const Navbar= () => {
   let navigate = useNavigate();
 
   const backHome = () => {
-      navigate('/Today');
+      navigate ('/Today');
   };
   
     return   <>

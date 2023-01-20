@@ -1,20 +1,30 @@
 .web {
    top: 25px;
-   position:relative ;
    padding: 2rem;
    
+}
+
+.web svg {
+   width: 20px;
+   justify-content: space-between;
+   
+}
+
+.web svg:hover {
+   color:turquoise;
+}
+
+.web img {
+   width: 50px;
+   cursor: pointer;
+   margin-left: 80rem;
+   padding: 1px;  
 }
 
 .not {
    width: 50px;
    cursor: pointer;
-   justify-content: space-between;
    margin-left: 80rem;
    padding: 1px;
- 
- 
 }
 
-.paragrafo {
-   text-align: justify;
-}
