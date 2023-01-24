@@ -1,7 +1,7 @@
-import styles from '../../Components/Pages/Navbar.module.css';
+import styles from '../Pages/Navbar.module.css';
 
 
-function Inputs() {
+function Search() {
     return<>
     
     <input className={styles.search} type="text"placeholder='Search'/>
@@ -9,4 +9,4 @@ function Inputs() {
     </>
 }
 
-export default Inputs;
+export default Search;

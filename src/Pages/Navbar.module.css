@@ -14,9 +14,11 @@
 }
 
 .icon{  
+    width: 15px;
     position:initial;
     cursor: pointer; 
     color:blue;
+    margin: 5px;
     margin-left: 12em;
    }
 
@@ -44,7 +46,7 @@
     font-weight: bold;
     margin-bottom: .6em;
     border: none;
-    position:relative;
+   
    }
    
 .itemm2 {

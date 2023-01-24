@@ -1,4 +1,4 @@
-import styles from '../Pages/Web.module.css'
+import styles from '../Pages/Website.module.css';
 
 
 function Shopping() {

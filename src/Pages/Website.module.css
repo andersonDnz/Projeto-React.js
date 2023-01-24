@@ -3,21 +3,23 @@ h1 {
    margin-left: 5rem;
 }
 p {
-   width: 501px;
+   width: 500px;
    margin-left: 5rem;
 }
-main svg {
-   width: 25px;
-   height: 25px;
+
+.icones_web {
+   width: 30px;
+   height: 30px;
    color: grey;
    cursor: pointer;
    border-right: 1px;
-   margin: 1px;
+   margin: none;
    margin-inline-start:1px ;
    margin-left: 75rem;
+  
 }
 
-main svg:hover {
+.icones_web:hover {
    color: black;
 }
 
