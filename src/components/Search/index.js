@@ -1,4 +1,4 @@
-import styles from '../Pages/Navbar.module.css';
+import styles from '../../pages/Navbar/styles.css';
 
 
 function Search() {

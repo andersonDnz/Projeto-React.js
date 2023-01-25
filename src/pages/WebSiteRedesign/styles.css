@@ -1,0 +1,184 @@
+h1 {
+  
+   margin-left: 5rem;
+}
+p {
+   width: 500px;
+   margin-left: 5rem;
+}
+
+.icones_web {
+   width: 30px;
+   height: 30px;
+   color: grey;
+   cursor: pointer;
+   border-right: 1px;
+   margin: none;
+   margin-inline-start:1px ;
+   margin-left: 75rem;
+  
+}
+
+.icones_web:hover {
+   color: black;
+}
+
+
+
+h2 {
+   margin-left: 5rem;
+   font-size: 16px;
+   font-weight:700;
+   color: rgb(151, 151, 151);
+}
+
+
+
+
+.input1 {
+   width: 74rem;
+   height: 55px;
+   display: flex;
+   background-color: rgb(255, 251, 251);
+   font-size: larger;
+   margin-bottom: 4rem;
+   margin-left: 5rem;
+   border-radius: 5px;
+   padding: 12px;
+   box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
+   
+}
+.section {
+   margin: 1px;
+}
+
+.input2 {
+   width: 74rem;
+   height: 55px;
+   display: flex;
+   background-color: rgb(255, 251, 251);
+   font-size: larger;
+   margin-bottom: 16px;
+   margin: 1px;
+   margin-left: 5rem;
+   border-radius: 5px;
+   padding: 12px;
+   box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
+}
+
+.input3 {
+   width: 74rem;
+   height: 100px;
+   background-color: rgb(255, 251, 251);
+   font-size: larger;
+   margin-bottom: 16px;    
+   margin: 1px;
+   margin-bottom: 5rem;
+   margin-top: 20px;
+   margin-left: 5rem;
+   border-radius: 5px;
+   padding: 12px;
+   box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
+}
+
+.inp3 {
+   display: flex;
+}
+
+.icon { 
+   margin-top: 6px;
+   margin-left: 30px;
+   color: gray;
+   cursor: pointer;
+ 
+}
+
+.icon:hover {
+   color:black;
+}
+
+.input4 {
+   width: 74rem;
+   height: 55px;
+   display: flex;
+   background-color: rgb(255, 251, 251);
+   font-size: larger;
+   margin: 7px;
+   margin-left: 5rem;
+   border-radius: 5px;
+   padding: 12px;
+   box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
+}
+
+.input5 {
+   width: 74rem;
+   height: 100px;
+   background-color: rgb(255, 251, 251);
+   font-size: larger;
+   margin: 8px;
+   margin-left: 5rem;
+   border-radius: 5px;
+   padding: 12px;
+   box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
+}
+
+.input6 {
+   width: 74rem;
+   height: 65px;
+   display: flex;
+   background-color: rgb(255, 251, 251);
+   font-size: larger;
+   margin-bottom: 16px;
+   margin: 8px;
+   margin-left: 5rem;
+   border-radius: 5px;
+   padding: 12px;
+   box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
+}
+
+
+section input {
+   width: 19px;
+   height: 19px;
+   cursor: pointer;
+   appearance: none;
+   border: 2px solid rgb(144, 143, 143);
+   border-radius: 50%;
+   outline: none;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+section input:before {
+   content: '';
+   position: absolute;
+   height: 9px;
+   width: 9px;
+   background-color: gray;
+   border-radius: 50%;
+   opacity: 0;
+   transition:all 300ms ease-in-out;
+}
+
+section input:checked:before {
+  opacity: 1;     
+}
+
+section input:focus {
+   box-shadow: 0 0 5px rgb(0, 0, 0, 1);
+}
+
+section label {
+   margin-left: 5px;
+   display: flex;
+
+}
+
+
+
+
+
+
+

@@ -1,15 +1,24 @@
-import styles from './Marc.module.css';
+import styles from "../WebSiteRedesign/styles.css";
+
+import { AiFillBell, AiOutlineMore } from "react-icons/ai";
 
 
 import { AiFillLayout, AiOutlinePaperClip } from 'react-icons/ai';
 
-
-
-function Marc() {
-
-       
-    return (
-            <form >
+function Website() {
+  return (
+    <main className={styles.web}>
+      <h1>Website Redesign</h1>
+      <div className={styles.icones_web}>
+        <AiFillBell />
+        <AiOutlineMore />
+      </div>
+      <p>
+        Um redesign de site é o processo de aprimoramento de um site para
+        melhorar a experiência do usuário e, por conta da diminuição do atrito,
+        engajar mais com os clientes-alvo.
+      </p>
+      <form >
                <h2>Today</h2> 
             <section className={styles.input1}>
                 <input type="radio" id="vazio" name="vazio" value="vazio" />
@@ -59,7 +68,8 @@ function Marc() {
             
             </form>
       
-    );
-};
+    </main>
+  );
+}
 
-export default Marc;
+export default Website;

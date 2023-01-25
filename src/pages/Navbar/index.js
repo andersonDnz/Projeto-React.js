@@ -11,10 +11,10 @@ import {
 } from "react-icons/ai";
 
 
-import Add from "../components";
+import AddListButton from "../../components/AddListButton";
 
-import styles from "../Pages/Navbar.module.css";
-import Search from "../components/Search";
+import styles from "../Navbar/styles.css";
+import Search from "../../components/Search";
 
 const Navbar = () => {
   let navigate = useNavigate();
@@ -67,7 +67,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <Add />
+        <AddListButton/>
       </div>
     </>
   );

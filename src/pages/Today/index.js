@@ -1,4 +1,4 @@
-import styles from "../Pages/Website.module.css";
+import styles from "../WebSiteRedesign/styles.css";
 
 function Today(){
     return(

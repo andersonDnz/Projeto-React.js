@@ -5,14 +5,13 @@ import {
     Routes,
     Route } from 'react-router-dom';
 
-import Today from '../Pages/Today';
-import Inbox from '../Pages/Inbox';
-import Navbar from '../Pages/Navbar';
-import Website from '../Pages/Website';
-import Shopping from '../Pages/Shopping';
-import Denamark from '../Pages/Denamark';
-import Container from '../routes/Container';
-
+import Today from '../pages/Today';
+import Inbox from '../pages/Inbox';
+import Navbar from '../pages/Navbar';
+import Website from '../pages/WebSiteRedesign';
+import Shopping from '../pages/Shopping';
+import Denamark from '../pages/Denamark';
+import Container from '../components/Container';
 
 
 function Home() {

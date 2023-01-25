@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../Pages/Navbar.module.css';
+import styles from '../../pages/Navbar/styles.css';
 
 function List() {
     return (

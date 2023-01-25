@@ -1,5 +1,5 @@
 
-import styles from '../routes/Container.module.css';
+import styles from './styles.css';
 
 function Container(props) {
     return <div className={`${styles.container} ${styles[props.customClass]}`} >
