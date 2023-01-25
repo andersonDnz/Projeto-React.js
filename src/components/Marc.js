@@ -23,13 +23,15 @@ function Marc() {
             </section>
 
             <section className={styles.input3}>
+                <div className={styles.inp3}>
                 <input type="radio" id="vazio" name="vazio" value="vazio"/>
                 <label> New landing layout 
                 </label> 
-                <div className={styles.icones}>
-                    <AiFillLayout/>
-                    <AiOutlinePaperClip/>   
-                </div>    
+                </div>
+                <div className={styles.icon}>
+                <AiFillLayout/>
+                <AiOutlinePaperClip/>
+                </div>   
             </section>
 
                 <h2>Backlog</h2>
@@ -40,13 +42,19 @@ function Marc() {
             </section>
 
             <section className={styles.input5}>
-                <input type="radio" id="vazio" name="vazio" value="vazio"/>
-                <label>New landing (ink +49) number in global footers & navi </label>
+                <div className={styles.inp3}> 
+                    <input type="radio" id="vazio" name="vazio" value="vazio"/>
+                    <label>New landing (ink +49) number in global footers & navi </label>
+                </div>
+                <div className={styles.icon}>
+                    <AiFillLayout/>
+                </div>
             </section>
 
             <section className={styles.input6}>
                 <input type="radio" id="vazio" name="vazio" value="vazio"/>
                 <label>New case study thumbnails</label>    
+                
             </section>
             
             </form>

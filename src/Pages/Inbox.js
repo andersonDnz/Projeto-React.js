@@ -1,9 +1,9 @@
-
+import styles from "../Pages/Website.module.css";
 
 function Inbox() {
     return(
-        <div>
-            <p>ssssss</p>
+        <div className={styles.web}>
+            <h1>ssssss</h1>
         </div>
     );
 

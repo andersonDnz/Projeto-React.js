@@ -6,7 +6,7 @@ import styles from '../Pages/Website.module.css';
 const  Denamark = () => {
     return (
         <div className={styles.distance}>
-             <p>denamark</p>   
+             <h1>denamark</h1>   
         </div>
     );
 };

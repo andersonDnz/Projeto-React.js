@@ -10,10 +10,11 @@ import {
   AiOutlineContainer,
 } from "react-icons/ai";
 
-import Inputs from "../components/Search";
+
 import Add from "../components";
 
 import styles from "../Pages/Navbar.module.css";
+import Search from "../components/Search";
 
 const Navbar = () => {
   let navigate = useNavigate();
@@ -33,7 +34,9 @@ const Navbar = () => {
           />
           <AiFillCloud className={styles.icon} />
 
-          <Inputs />
+          <div>
+            <Search/>
+          </div>
 
           <ul>
             <li className={styles.itemm2}>

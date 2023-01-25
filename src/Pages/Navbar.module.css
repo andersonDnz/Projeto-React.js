@@ -15,7 +15,7 @@
 
 .icon{  
     width: 15px;
-    position:initial;
+  
     cursor: pointer; 
     color:blue;
     margin: 5px;
@@ -50,6 +50,7 @@
    }
    
 .itemm2 {
+    cursor: pointer;
     padding: 1em;
     list-style: none;
     margin-bottom: 2em;

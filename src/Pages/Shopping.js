@@ -4,7 +4,7 @@ import styles from '../Pages/Website.module.css';
 function Shopping() {
     return(
         <div className={styles.web}>
-            <p>Shopping List</p>
+            <h1>Shopping List</h1>
         </div>
     );
 };
