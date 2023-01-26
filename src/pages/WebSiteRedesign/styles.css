@@ -1,7 +1,8 @@
 h1 {
-  
+   
    margin-left: 5rem;
 }
+
 p {
    width: 500px;
    margin-left: 5rem;
@@ -81,19 +82,20 @@ h2 {
    box-shadow: 1px 2px 2px 1px rgb(205, 200, 200);
 }
 
-.inp3 {
+.inp {
    display: flex;
 }
 
-.icon { 
-   margin-top: 6px;
+.icons { 
+   display: flex;
+   border: none;
    margin-left: 30px;
    color: gray;
    cursor: pointer;
  
 }
 
-.icon:hover {
+.icons:hover {
    color:black;
 }
 

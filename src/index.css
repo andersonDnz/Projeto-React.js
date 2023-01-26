@@ -1,9 +1,12 @@
 * {
- padding: 1px;
- box-sizing: border-box;
- font-family: 'Inter', sans-serif; 
-};
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
 
-html, body, #root {
+html,
+body,
+#root {
   width: 100%;
-};
+  border-radius: 1px;
+  margin: 0;
+}

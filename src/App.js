@@ -3,9 +3,7 @@ import React from "react";
 import Home from "./routes";
 
 function App() {
-  return (
-    <Home/>
-  );
-};
+  return <Home/>;
+}
 
 export default App;

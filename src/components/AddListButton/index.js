@@ -1,15 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import styles from '../../pages/Navbar/styles.css';
+import styles from "./styles.module.css";
 
 function List() {
-    return (
+  return (
     <div>
-
-        <input className={styles.search2} placeholder="Add list"/>
-        
+      <button className={styles.add_button}> Add List </button>
     </div>
- )
+  );
 }
 
 export default List;

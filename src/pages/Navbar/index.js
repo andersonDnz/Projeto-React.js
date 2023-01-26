@@ -10,11 +10,11 @@ import {
   AiOutlineContainer,
 } from "react-icons/ai";
 
+import Search from "../../components/Search";
 
 import AddListButton from "../../components/AddListButton";
 
-import styles from "../Navbar/styles.css";
-import Search from "../../components/Search";
+import styles from "./styles.module.css";
 
 const Navbar = () => {
   let navigate = useNavigate();
@@ -25,49 +25,45 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={styles.navbar2}>
+      <div className={styles.navbar}>
         <nav>
-          <AiOutlineBars
-            type="button"
-            onClick={backHome}
-            className={styles.img}
-          />
-          <AiFillCloud className={styles.icon} />
+          <AiOutlineBars className={styles.img} type="button" onClick={backHome} />
+          <AiFillCloud className={styles.icon_nuvem} />
 
           <div>
             <Search/>
           </div>
 
           <ul>
-            <li className={styles.itemm2}>
+            <li className={styles.page}>
               <AiTwotoneCalendar />
               <Link to="Today">Today</Link>
             </li>
 
-            <li className={styles.itemm2}>
+            <li className={styles.page}>
               <AiOutlineContainer />
               <Link to="Inbox">Inbox</Link>
             </li>
           </ul>
 
           <ul>
-            <li className={styles.itemm2}>
+            <li className={styles.page}>
               <AiOutlineDesktop />
               <Link to="Website">Website Redesign</Link>
             </li>
 
-            <li className={styles.itemm2}>
+            <li className={styles.page}>
               <AiOutlineShoppingCart />
               <Link to="Shopping">Shopping</Link>
             </li>
 
-            <li className={styles.itemm2}>
+            <li className={styles.page}>
               <AiOutlineLock />
               <Link to="Denamark">Denamark</Link>
             </li>
           </ul>
         </nav>
-        <AddListButton/>
+        <AddListButton />
       </div>
     </>
   );
