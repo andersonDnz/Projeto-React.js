@@ -1,10 +1,8 @@
 import React from "react";
 
-import styles from "../WebSiteRedesign/styles.css";
-
 const Denamark = () => {
   return (
-    <div className={styles.distance}>
+    <div>
       <h1>denamark</h1>
     </div>
   );

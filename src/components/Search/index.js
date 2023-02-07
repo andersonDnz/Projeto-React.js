@@ -1,10 +1,12 @@
-import styles from "./styles.module.css";
+import React from "react";
+
+import Input from "./styles";
 
 function Search() {
   return (
-    <>
-      <input className={styles.search} type="text" placeholder="Search" />
-    </>
+    <div>
+      <Input type="text" placeholder="Search"/>
+    </div>
   );
 }
 

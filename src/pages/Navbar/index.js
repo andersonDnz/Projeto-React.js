@@ -11,12 +11,13 @@ import {
 } from "react-icons/ai";
 
 import Search from "../../components/Search";
+import Div from "./styles";
 
 import AddListButton from "../../components/AddListButton";
 
 import styles from "./styles.module.css";
 
-const Navbar = () => {
+function Navbar() {
   let navigate = useNavigate();
 
   const backHome = () => {
@@ -25,48 +26,51 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={styles.navbar}>
-        <nav>
-          <AiOutlineBars className={styles.img} type="button" onClick={backHome} />
-          <AiFillCloud className={styles.icon_nuvem} />
+      <Div>
+        <AiOutlineBars
+          className={styles.img}
+          type="button"
+          onClick={backHome}
+        />
+        <AiFillCloud className={styles.icon_nuvem} />
 
-          <div>
-            <Search/>
-          </div>
+        <div>
+          <Search />
+        </div>
 
-          <ul>
-            <li className={styles.page}>
-              <AiTwotoneCalendar />
-              <Link to="Today">Today</Link>
-            </li>
+        <ul>
+          <li>
+            <AiTwotoneCalendar />
+            <Link to="Today">Today</Link>
+          </li>
 
-            <li className={styles.page}>
-              <AiOutlineContainer />
-              <Link to="Inbox">Inbox</Link>
-            </li>
-          </ul>
+          <li>
+            <AiOutlineContainer />
+            <Link to="Inbox">Inbox</Link>
+          </li>
+        </ul>
 
-          <ul>
-            <li className={styles.page}>
-              <AiOutlineDesktop />
-              <Link to="Website">Website Redesign</Link>
-            </li>
+        <ul>
+          <li>
+            <AiOutlineDesktop />
+            <Link to="Website">Website Redesign</Link>
+          </li>
 
-            <li className={styles.page}>
-              <AiOutlineShoppingCart />
-              <Link to="Shopping">Shopping</Link>
-            </li>
+          <li>
+            <AiOutlineShoppingCart />
+            <Link to="Shopping">Shopping</Link>
+          </li>
 
-            <li className={styles.page}>
-              <AiOutlineLock />
-              <Link to="Denamark">Denamark</Link>
-            </li>
-          </ul>
-        </nav>
+          <li>
+            <AiOutlineLock />
+            <Link to="Denamark">Denamark</Link>
+          </li>
+        </ul>
+
         <AddListButton />
-      </div>
+      </Div>
     </>
   );
-};
+}
 
 export default Navbar;

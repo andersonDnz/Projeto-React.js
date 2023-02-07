@@ -1,4 +1,4 @@
-import styles from "../WebSiteRedesign/styles.css";
+import styles from "./styles.module.css";
 
 import {
   AiFillBell,
@@ -22,72 +22,48 @@ function Website() {
       </p>
       <form>
         <h2>Today</h2>
-        <section className="input1">
-          <input 
-            type="radio"
-            id="vazio" 
-            name="vazio" 
-            value="vazio" />
+        <section className={styles.input1}>
+          <input type="radio" id="vazio" name="vazio" value="vazio" />
           <label>Update About page Header </label>
         </section>
 
         <h2>Working in Progress</h2>
-        <section className="input2">
-          <input 
-            type="radio" 
-            id="vazio" 
-            name="vazio" 
-            value="vazio" />
+        <section className={styles.input2}>
+          <input type="radio" id="vazio" name="vazio" value="vazio" />
           <label>About Page wordings </label>
         </section>
 
-        <section className="input3">
-          <div className="inp">
-            <input 
-              type="radio" 
-              id="vazio" 
-              name="vazio" 
-              value="vazio" />
+        <section className={styles.input3}>
+          <div className={styles.inp}>
+            <input type="radio" id="vazio" name="vazio" value="vazio" />
             <label> New landing layout</label>
           </div>
-          <span className="icons">
+          <span className={styles.icones}>
             <AiFillLayout />
             <AiOutlinePaperClip />
           </span>
         </section>
 
         <h2>Backlog</h2>
-        <section className="input4">
-          <input 
-            type="radio" 
-            id="vazio" 
-            name="vazio" 
-            value="vazio" />
+        <section className={styles.input4}>
+          <input type="radio" id="vazio" name="vazio" value="vazio" />
           <label>Update global iconset </label>
         </section>
 
-        <section className="input5">
-          <div className="inp">
-            <input
-              type="radio" 
-              id="vazio" 
-              name="vazio" 
-              value="vazio" />
+        <section className={styles.input5}>
+          <div className={styles.icone}>
+            <input type="radio" id="vazio" name="vazio" value="vazio" />
             <label>
               New landing (ink +49) number in global footers & navi{" "}
             </label>
           </div>
-          <span className="icons">
+          <span className={styles.icone}>
             <AiFillLayout />
           </span>
         </section>
 
-        <section className="input6">
-          <input 
-          type="radio" 
-          id="vazio" 
-          name="vazio" 
-          value="vazio" />
+        <section className={styles.input6}>
+          <input type="radio" id="vazio" name="vazio" value="vazio" />
           <label>New case study thumbnails</label>
         </section>
       </form>

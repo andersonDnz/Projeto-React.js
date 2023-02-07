@@ -1,4 +1,6 @@
-.add_button {
+import styled from "styled-components";
+
+const Button = styled.button`
   height: 4em;
   width: 15rem;
   text-align: center;
@@ -12,6 +14,7 @@
   font-weight: bold;
   margin-bottom: 16em;
   margin-left: 5px;
-  border: none;
-  position: fixed;
-}
+  border: solid 0.1px gray;
+`;
+
+export default Button;

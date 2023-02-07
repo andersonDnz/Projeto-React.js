@@ -1,11 +1,11 @@
 import React from "react";
 
-import styles from "./styles.module.css";
+import Button from "./styles";
 
 function List() {
   return (
     <div>
-      <button className={styles.add_button}> Add List </button>
+      <Button>add list</Button>
     </div>
   );
 }
