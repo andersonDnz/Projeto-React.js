@@ -8,7 +8,10 @@ p {
 }
 
 .icones_web {
-  width: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5%;
   height: 30px;
   color: grey;
   cursor: pointer;
@@ -16,10 +19,6 @@ p {
   margin: none;
   margin-inline-start: 1px;
   margin-left: 75rem;
-}
-
-.icones_web:hover {
-  color: black;
 }
 
 h2 {
@@ -78,16 +77,17 @@ h2 {
   display: flex;
 }
 
-.icons {
+.icones {
+  width: 5%;
+  height: 30px;
+  border-right: 1px;
+  margin: none;
   display: flex;
-  border: none;
+  justify-content: space-between;
+  align-items: center;
   margin-left: 30px;
   color: gray;
   cursor: pointer;
-}
-
-.icons:hover {
-  color: black;
 }
 
 .input4 {

@@ -38,10 +38,10 @@ function Website() {
             <input type="radio" id="vazio" name="vazio" value="vazio" />
             <label> New landing layout</label>
           </div>
-          <span className={styles.icones}>
+          <div className={styles.icones}>
             <AiFillLayout />
             <AiOutlinePaperClip />
-          </span>
+          </div>
         </section>
 
         <h2>Backlog</h2>
@@ -51,15 +51,13 @@ function Website() {
         </section>
 
         <section className={styles.input5}>
-          <div className={styles.icone}>
+          <div className={styles.inp}>
             <input type="radio" id="vazio" name="vazio" value="vazio" />
-            <label>
-              New landing (ink +49) number in global footers & navi{" "}
-            </label>
+            <label>New landing (ink +49) number in global footers & navi</label>
           </div>
-          <span className={styles.icone}>
+          <div className={styles.icones}>
             <AiFillLayout />
-          </span>
+          </div>
         </section>
 
         <section className={styles.input6}>
